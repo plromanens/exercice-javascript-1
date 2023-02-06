@@ -44,12 +44,23 @@ h1 {
   background: var(--yellow-color);
 }
 
+.change-color.is-blue {
+  background-color: blue;
+}
+
 .box.toggle-color {
   background: var(--orange-color);
 }
 
+.toggle-color.is-red {
+  background-color: red;
+}
+
 .box.trigger {
   background: var(--violet-color);
+}
+.is-trigger {
+  display: none;
 }
 
 .box.target {
@@ -60,6 +71,14 @@ h1 {
   background: var(--green-color);
 }
 
+.change-color {
+  background-color: blue;
+}
+
 .box.trigger-all-self {
   background: var(--blue-color);
+}
+
+.trigger-all-self.is-green {
+  background-color: green;
 }
